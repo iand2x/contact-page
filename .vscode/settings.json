@@ -1,0 +1,15 @@
+{
+  "editor.formatOnPaste": false, // required
+  "editor.formatOnType": false, // required
+  "editor.formatOnSave": true, // optional
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    }
+  },
+  "[typescriptreact]": {
+      "editor.codeActionsOnSave": {
+          "source.organizeImports": true
+      }
+  }
+}
